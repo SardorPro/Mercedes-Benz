@@ -1,0 +1,192 @@
+ <!DOCTYPE html>
+<!-- saved from url=(0050)https://getbootstrap.com/docs/5.1/examples/heroes/ -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>SardorPro|14.12.06|Mercedec-Benz</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/heroes/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <!-- Favicons -->
+    <link rel="icon" type="text/css" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLw5k0QhSPGOfUwC8WW9wZW2x9FDOvYgkf0A&usqp=CAU">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<main>
+
+  <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-1" src="data:image/jpeg;base64,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" alt="icon cars" width="72" height="57">
+    <h1 class="display-5 fw-bold">Mercedes Benz</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">blue button</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">white button</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold">Lorem ipsum</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">blue button</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">white button</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_wZFGCAUqYwHQyKhW2TSJemx6tYUhZppKUQ&usqp=CAU" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxC-HwK29fANBUHL4ZwCW7CSIZgQn6QLAayA&usqp=CAU" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Lorem ipsum dolor sit amet, consec.</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">blue</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">white</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+    <div class="row align-items-center g-lg-5 py-5">
+      <div class="col-lg-7 text-center text-lg-start">
+        <h1 class="display-4 fw-bold lh-1 mb-3">Lorem ipsum dolor.</h1>
+        <p class="col-lg-10 fs-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+      </div>
+      <div class="col-md-10 mx-auto col-lg-5">
+        <form class="p-4 p-md-5 border rounded-3 bg-light">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+          <hr class="my-4">
+          <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing.</small>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="container my-5">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1">Lorem ipsum dolor sit amet, consectetu.</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">blue button</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">white button</button>
+        </div>
+      </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPX6J1jpyuF_mrpld97ZX2qO8nCyDdTdjP4ulabdKonQvggNOk7Yyzo02YWqb2Bgwg7Ec&usqp=CAU" alt="" width="720">
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="bg-dark text-secondary px-4 py-5 text-center">
+    <div class="py-5">
+      <h1 class="display-5 fw-bold text-white">Dark</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">blue button</button>
+          <button type="button" class="btn btn-outline-light btn-lg px-4">white button</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider mb-0"></div>
+</main>
+
+      
+  
+
+</body></html>
